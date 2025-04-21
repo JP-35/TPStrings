@@ -18,10 +18,10 @@ int main() {
     while (current != NULL) {
         *current = caracternuevo; 
         current = strchr(current + 1, caracter);
-
+    }
     printf("Cadena modificada: %s\n", original); 
 
     return 0;
-}
+
 }
 
